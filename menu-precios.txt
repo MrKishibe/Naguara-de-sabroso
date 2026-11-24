@@ -1,0 +1,56 @@
+NAGUARA DE SABROSO — MENÚ Y PRECIOS
+
+BURGERS
+Hamburguesa Sencilla = 4$ (carne, vegetales + salsas)
+Hamburguesa Especial = 5$ (carne, vegetales, jamón, queso, tocineta + salsas)
+Hamburguesa Pollo Sencilla = 4$ (pollo, vegetales + salsas)
+Hamburguesa Pollo Especial = 4.50$ (pollo, vegetales, jamón, queso, tocineta, papas naturales + salsas)
+Hamburguesa Pollo Crispy = 5$ (pollo crispy, jamón, queso, tocineta, papas naturales, vegetales + salsas)
+Hamburguesa Chuletón = 5$ (chuleta ahumada, vegetales, jamón, queso, tocineta, papas naturales + salsas)
+Hamburguesa Mixta = 5.50$ (carne, pollo, vegetales, jamón, queso, tocineta, maíz, papas naturales + salsas)
+Hamburguesa Doble Todo = 7$ (carne, pollo, jamón, queso, tocineta, papas naturales, vegetales + salsas)
+Hamburguesa Triple = 8$ (carne, pollo, chuleta, jamón, queso, tocineta, papas naturales, vegetales + salsas)
+Hamburguesa Galáctica Gratinada = 9$ (carne, pollo, chuleta, jamón, queso, tocineta, maíz, papas naturales + salsas)
+
+PERROS CALIENTES
+Perros Calientes 2 Grandes = 2.50$ (salchicha, papas ralladas, vegetales + salsas)
+Perro con Papas Naturales = 3$ (salchicha, papas naturales + salsas)
+Perro Trimagnético = 3.50$ (salchicha, jamón, tocineta, queso amarillo, papas naturales + salsas)
+Pepiperro = 5$ (carne, pollo, salchicha, jamón, queso, tocineta, maíz, papas naturales, vegetales + salsas)
+
+PEPITOS
+Pepito Sencillo = 7$ (pollo, chuleta, papas, jamón, tocineta, salsa, queso pecorino)
+Pepito Gratinado Pequeño = 8$ (pollo, chuleta, papas, salsa, queso mozzarella, maíz, tocineta y jamón)
+Pepito Trifásico = 11$ (carne, pollo, jamón, queso, maíz, tocineta, papas naturales, vegetales + salsas)
+Pepito Trimagnético Gratinado Grande = 12$ (pollo, carne, chuleta, tocineta, maíz, queso mozzarella, jamón, vegetales y papas naturales, queso, maíz)
+
+SALCHIPAPAS SENCILLAS
+Salchipapa Sencilla 1 Persona (Opción 1) = 4$ (salchichas, papas, salsas, queso de año)
+Salchipapa Sencilla 1 Persona (Opción 2) = 5$ (salchichas, papas, salsas, pollo, queso mozzarella, maíz)
+
+SALCHIPAPAS GRATINADAS
+Salchipapa Gratinada 2 Personas = 7$ (salchichas, papas, salsa, queso mozzarella, maíz, jamón)
+Salchipapa Gratinada 4 Personas = 12$ (salchichas, papas, salsa, queso mozzarella, maíz, jamón)
+Salchipapa Gratinada 7 Personas = 17$ (salchichas, papas, salsa, queso mozzarella, maíz, jamón)
+
+TIRAS DE POLLO
+Tiras de Pollo 2 Personas = 7$ (8 tiras de pollo, ensalada césar, papas naturales + salsas)
+Tiras de Pollo 3 Personas = 9$ (12 tiras de pollo, ensalada césar, papas naturales + salsas)
+Tiras de Pollo 4 Personas = 12$ (16 tiras de pollo, ensalada césar, papas naturales + salsas)
+Tiras de Pollo 6 Personas = 16$ (24 tiras de pollo, ensalada césar, papas naturales + salsas)
+
+CLUB HOUSE
+Club House Normal = 8$ (pollo, lechuga, huevo, jamón, queso, tocineta, papas naturales + salsas)
+Club House Especial + Refresco 1L = 12$ (pollo, lechuga, tomate, huevo, jamón, queso, tocineta, ensalada césar, papas naturales + salsas)
+
+COMBOS
+Combo 3 Burgers = 8$ (pollo, vegetales, papas naturales + salsas)
+Combo 6 Burgers de Pollo + Papas Naturales y Refresco de Litro = 15$ (6 burgers de pollo, papas naturales + refresco 1 L)
+Combo 3 Pepitos Mixto + Papas Naturales y Refresco de Litro = 15$ (3 pepitos mixtos, papas naturales + refresco 1 L)
+Combo 3 Pepitos Gratinados + Papas Naturales y Refresco de Litro = 17$ (3 pepitos gratinados, papas naturales + refresco 1 L)
+Combo 3 Perros + 3 Burgers y Refresco de Litro = 13$ (3 perros calientes, 3 burgers + refresco 1 L)
+
+ADICIONALES
+Refresco 1L = 1.50$ (bebida de 1 litro)
+Refresco 1.5L = 2$ (bebida de 1,5 litros)
+Ración de Papas = 2$ (papas naturales + salsa)

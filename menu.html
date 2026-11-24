@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Naguara de Sabroso | Menú</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/naguara-e-sabroso-logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-white m-0 fs-3">Naguara de Sabroso</h1>
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="menu.html" class="nav-item nav-link active">Menú</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                    <a href="menu.html" class="btn btn-primary py-2 px-4">VER MENÚ</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Nuestro Menú</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                            <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menú</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5" id="menu">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Nuestro Menú</h5>
+                    <h1 class="mb-4">Sabores de <span class="text-primary">Naguara de Sabroso</span></h1>
+                    <div class="menu-note d-inline-block mb-5">Todos nuestros precios en $</div>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <ul class="nav nav-pills d-flex flex-wrap justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab active" data-bs-toggle="pill" href="#burgers">
+                                <i class="fa fa-hamburger fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Las favoritas</small>
+                                    <h6 class="mt-n1 mb-0">Burgers</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#perros">
+                                <i class="fa fa-hot-tub fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Clásicos</small>
+                                    <h6 class="mt-n1 mb-0">Perros</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#pepitos">
+                                <i class="fa fa-bread-slice fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Completos</small>
+                                    <h6 class="mt-n1 mb-0">Pepitos</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#salchipapas-sencillas">
+                                <i class="fa fa-drumstick-bite fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Para compartir</small>
+                                    <h6 class="mt-n1 mb-0">Salchipapas</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#salchipapas-gratinadas">
+                                <i class="fa fa-fire fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Para compartir</small>
+                                    <h6 class="mt-n1 mb-0">Gratinadas</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#tiras-pollo">
+                                <i class="fa fa-drumstick-bite fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Crispy</small>
+                                    <h6 class="mt-n1 mb-0">Tiras</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#club-house">
+                                <i class="fa fa-cutlery fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Completo</small>
+                                    <h6 class="mt-n1 mb-0">Club House</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#combos">
+                                <i class="fa fa-gift fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Mejor precio</small>
+                                    <h6 class="mt-n1 mb-0">Combos</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#adicionales">
+                                <i class="fa fa-coffee fa-lg text-primary me-2"></i>
+                                <div class="text-start">
+                                    <small class="text-body">Agrega a tu pedido</small>
+                                    <h6 class="mt-n1 mb-0">Adicionales</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="burgers" class="tab-pane fade show p-0 active">
+                            <h3 class="menu-category-title text-start mb-4">BURGERS</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Sencilla" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Sencilla</span>
+                                                <span class="menu-price">4$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Especial" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Especial</span>
+                                                <span class="menu-price">5$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, vegetales, jamón, queso, tocineta + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Sencilla" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Pollo Sencilla</span>
+                                                <span class="menu-price">4$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Especial" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Pollo Especial</span>
+                                                <span class="menu-price">4.50$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, vegetales, jamón, queso, tocineta, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Crispy" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Pollo Crispy</span>
+                                                <span class="menu-price">5$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo crispy, jamón, queso, tocineta, papas naturales, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Chuletón" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Chuletón</span>
+                                                <span class="menu-price">5$</span>
+                                            </h5>
+                                            <small class="menu-desc">(chuleta ahumada, vegetales, jamón, queso, tocineta, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Mixta" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Mixta</span>
+                                                <span class="menu-price">5.50$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, pollo, vegetales, jamón, queso, tocineta, maíz, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Doble Todo" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Doble Todo</span>
+                                                <span class="menu-price">7$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, pollo, jamón, queso, tocineta, papas naturales, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Triple" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Triple</span>
+                                                <span class="menu-price">8$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, pollo, chuleta, jamón, queso, tocineta, papas naturales, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Galáctica Gratinada" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Hamburguesa Galáctica Gratinada</span>
+                                                <span class="menu-price">9$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, pollo, chuleta, jamón, queso, tocineta, maíz, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="perros" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">PERROS CALIENTES</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/PerroCaliente.png" alt="Perros Calientes 2 Grandes" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Perros Calientes 2 Grandes</span>
+                                                <span class="menu-price">2.50$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchicha, papas ralladas, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/PerroCaliente.png" alt="Perro con Papas Naturales" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Perro con Papas Naturales</span>
+                                                <span class="menu-price">3$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchicha, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/PerroCaliente.png" alt="Perro Trimagnético" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Perro Trimagnético</span>
+                                                <span class="menu-price">3.50$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchicha, jamón, tocineta, queso amarillo, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/PerroCaliente.png" alt="Pepiperro" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Pepiperro</span>
+                                                <span class="menu-price">5$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, pollo, salchicha, jamón, queso, tocineta, maíz, papas naturales, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="pepitos" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">PEPITOS</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/ClubHouse.png" alt="Pepito Sencillo" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Pepito Sencillo</span>
+                                                <span class="menu-price">7$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, chuleta, papas, jamón, tocineta, salsa, queso pecorino)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/ClubHouse.png" alt="Pepito Gratinado Pequeño" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Pepito Gratinado Pequeño</span>
+                                                <span class="menu-price">8$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, chuleta, papas, salsa, queso mozzarella, maíz, tocineta y jamón)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/ClubHouse.png" alt="Pepito Trifásico" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Pepito Trifásico</span>
+                                                <span class="menu-price">11$</span>
+                                            </h5>
+                                            <small class="menu-desc">(carne, pollo, jamón, queso, maíz, tocineta, papas naturales, vegetales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/ClubHouse.png" alt="Pepito Trimagnético Gratinado Grande" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Pepito Trimagnético Gratinado Grande</span>
+                                                <span class="menu-price">12$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, carne, chuleta, tocineta, maíz, queso mozzarella, jamón, vegetales y papas naturales, queso, maíz)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="salchipapas-sencillas" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">SALCHIPAPAS SENCILLAS</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Sencilla 1 Persona (Opción 1)" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Salchipapa Sencilla 1 Persona (Opción 1)</span>
+                                                <span class="menu-price">4$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchichas, papas, salsas, queso de año)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Sencilla 1 Persona (Opción 2)" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Salchipapa Sencilla 1 Persona (Opción 2)</span>
+                                                <span class="menu-price">5$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchichas, papas, salsas, pollo, queso mozzarella, maíz)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="salchipapas-gratinadas" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">SALCHIPAPAS GRATINADAS</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Gratinada 2 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Salchipapa Gratinada 2 Personas</span>
+                                                <span class="menu-price">7$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchichas, papas, salsa, queso mozzarella, maíz, jamón)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Gratinada 4 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Salchipapa Gratinada 4 Personas</span>
+                                                <span class="menu-price">12$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchichas, papas, salsa, queso mozzarella, maíz, jamón)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Gratinada 7 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Salchipapa Gratinada 7 Personas</span>
+                                                <span class="menu-price">17$</span>
+                                            </h5>
+                                            <small class="menu-desc">(salchichas, papas, salsa, queso mozzarella, maíz, jamón)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tiras-pollo" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">TIRAS DE POLLO</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 2 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Tiras de Pollo 2 Personas</span>
+                                                <span class="menu-price">7$</span>
+                                            </h5>
+                                            <small class="menu-desc">(8 tiras de pollo, ensalada césar, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 3 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Tiras de Pollo 3 Personas</span>
+                                                <span class="menu-price">9$</span>
+                                            </h5>
+                                            <small class="menu-desc">(12 tiras de pollo, ensalada césar, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 4 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Tiras de Pollo 4 Personas</span>
+                                                <span class="menu-price">12$</span>
+                                            </h5>
+                                            <small class="menu-desc">(16 tiras de pollo, ensalada césar, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 6 Personas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Tiras de Pollo 6 Personas</span>
+                                                <span class="menu-price">16$</span>
+                                            </h5>
+                                            <small class="menu-desc">(24 tiras de pollo, ensalada césar, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="club-house" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">CLUB HOUSE</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/ClubHouse.png" alt="Club House Normal" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Club House Normal</span>
+                                                <span class="menu-price">8$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, lechuga, huevo, jamón, queso, tocineta, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/ClubHouse.png" alt="Club House Especial + Refresco 1L" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Club House Especial + Refresco 1L</span>
+                                                <span class="menu-price">12$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, lechuga, tomate, huevo, jamón, queso, tocineta, ensalada césar, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="combos" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">COMBOS</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Combo 3 Burgers" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Combo 3 Burgers</span>
+                                                <span class="menu-price">8$</span>
+                                            </h5>
+                                            <small class="menu-desc">(pollo, vegetales, papas naturales + salsas)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Combo 6 Burgers de Pollo + Papas Naturales y Refresco de Litro" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Combo 6 Burgers de Pollo + Papas Naturales y Refresco de Litro</span>
+                                                <span class="menu-price">15$</span>
+                                            </h5>
+                                            <small class="menu-desc">(6 burgers de pollo, papas naturales + refresco 1 L)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Combo 3 Pepitos Mixto + Papas Naturales y Refresco de Litro" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Combo 3 Pepitos Mixto + Papas Naturales y Refresco de Litro</span>
+                                                <span class="menu-price">15$</span>
+                                            </h5>
+                                            <small class="menu-desc">(3 pepitos mixtos, papas naturales + refresco 1 L)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Combo 3 Pepitos Gratinados + Papas Naturales y Refresco de Litro" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Combo 3 Pepitos Gratinados + Papas Naturales y Refresco de Litro</span>
+                                                <span class="menu-price">17$</span>
+                                            </h5>
+                                            <small class="menu-desc">(3 pepitos gratinados, papas naturales + refresco 1 L)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/Hamburguesa.png" alt="Combo 3 Perros + 3 Burgers y Refresco de Litro" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Combo 3 Perros + 3 Burgers y Refresco de Litro</span>
+                                                <span class="menu-price">13$</span>
+                                            </h5>
+                                            <small class="menu-desc">(3 perros calientes, 3 burgers + refresco 1 L)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="adicionales" class="tab-pane fade p-0">
+                            <h3 class="menu-category-title text-start mb-4">ADICIONALES</h3>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/naguara-e-sabroso-logo.png" alt="Refresco 1L" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Refresco 1L</span>
+                                                <span class="menu-price">1.50$</span>
+                                            </h5>
+                                            <small class="menu-desc">(bebida de 1 litro)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/naguara-e-sabroso-logo.png" alt="Refresco 1.5L" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Refresco 1.5L</span>
+                                                <span class="menu-price">2$</span>
+                                            </h5>
+                                            <small class="menu-desc">(bebida de 1,5 litros)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-item">
+                                        <img src="img/naguara-e-sabroso-logo.png" alt="Ración de Papas" loading="lazy">
+                                        <div class="w-100 text-start">
+                                            <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
+                                                <span class="menu-name">Ración de Papas</span>
+                                                <span class="menu-price">2$</span>
+                                            </h5>
+                                            <small class="menu-desc">(papas naturales + salsa)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Empresa</h4>
+                        <a class="btn btn-link" href="">Nosotros</a>
+                        <a class="btn btn-link" href="">Contacto</a>
+                        <a class="btn btn-link" href="menu.html">Menú</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contacto</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://maps.app.goo.gl/aAKe7GAr6T2o4GuF9" target="_blank" class="text-light">Ver ubicación en el mapa</a></p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+58412-8759879</p>
+                        <p class="mb-2"><i class="fa fa-comments me-3"></i><a href="https://wa.me/584128759879" target="_blank" class="text-light">Escríbenos por WhatsApp</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horarios</h4>
+                        <h5 class="text-light fw-normal">Todos los días</h5>
+                        <p>07PM - 12AM</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; Naguara de Sabroso, Todos los derechos reservados.
+                            Diseñado por <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                            Distribuido por <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
