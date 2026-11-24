@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -185,16 +185,14 @@
                             <a class="d-flex align-items-center text-start mx-2 menu-tab active" data-bs-toggle="pill" href="#burgers">
                                 <i class="fa fa-hamburger fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Las favoritas</small>
-                                    <h6 class="mt-n1 mb-0">Burgers</h6>
+                                    <h6 class="mt-n1 mb-0">Hamburguesas</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#perros">
-                                <i class="fa fa-hot-tub fa-lg text-primary me-2"></i>
+                                <i class="fa fa-hotdog fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Clásicos</small>
                                     <h6 class="mt-n1 mb-0">Perros</h6>
                                 </div>
                             </a>
@@ -203,26 +201,15 @@
                             <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#pepitos">
                                 <i class="fa fa-bread-slice fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Completos</small>
                                     <h6 class="mt-n1 mb-0">Pepitos</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#salchipapas-sencillas">
-                                <i class="fa fa-drumstick-bite fa-lg text-primary me-2"></i>
+                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#salchipapas">
+                                <i class="fa fa-utensils fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Para compartir</small>
                                     <h6 class="mt-n1 mb-0">Salchipapas</h6>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#salchipapas-gratinadas">
-                                <i class="fa fa-fire fa-lg text-primary me-2"></i>
-                                <div class="text-start">
-                                    <small class="text-body">Para compartir</small>
-                                    <h6 class="mt-n1 mb-0">Gratinadas</h6>
                                 </div>
                             </a>
                         </li>
@@ -230,16 +217,14 @@
                             <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#tiras-pollo">
                                 <i class="fa fa-drumstick-bite fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Crispy</small>
-                                    <h6 class="mt-n1 mb-0">Tiras</h6>
+                                    <h6 class="mt-n1 mb-0">Tiras de pollo</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#club-house">
-                                <i class="fa fa-cutlery fa-lg text-primary me-2"></i>
+                                <i class="fa fa-cheese fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Completo</small>
                                     <h6 class="mt-n1 mb-0">Club House</h6>
                                 </div>
                             </a>
@@ -248,7 +233,6 @@
                             <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#combos">
                                 <i class="fa fa-gift fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Mejor precio</small>
                                     <h6 class="mt-n1 mb-0">Combos</h6>
                                 </div>
                             </a>
@@ -257,7 +241,6 @@
                             <a class="d-flex align-items-center text-start mx-2 menu-tab" data-bs-toggle="pill" href="#adicionales">
                                 <i class="fa fa-coffee fa-lg text-primary me-2"></i>
                                 <div class="text-start">
-                                    <small class="text-body">Agrega a tu pedido</small>
                                     <h6 class="mt-n1 mb-0">Adicionales</h6>
                                 </div>
                             </a>
@@ -265,11 +248,11 @@
                     </ul>
                     <div class="tab-content">
                         <div id="burgers" class="tab-pane fade show p-0 active">
-                            <h3 class="menu-category-title text-start mb-4">BURGERS</h3>
+                            <h3 class="menu-category-title text-start mb-4">HAMBURGUESAS</h3>
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Sencilla" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Sencilla" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Sencilla</span>
@@ -281,7 +264,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Especial" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Especial" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Especial</span>
@@ -293,7 +276,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Sencilla" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Sencilla" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Pollo Sencilla</span>
@@ -305,7 +288,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Especial" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Especial" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Pollo Especial</span>
@@ -317,7 +300,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Crispy" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Pollo Crispy" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Pollo Crispy</span>
@@ -329,7 +312,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Chuletón" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Chuletón" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Chuletón</span>
@@ -341,7 +324,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Mixta" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Mixta" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Mixta</span>
@@ -353,7 +336,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Doble Todo" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Doble Todo" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Doble Todo</span>
@@ -365,7 +348,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Triple" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Triple" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Triple</span>
@@ -377,7 +360,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Galáctica Gratinada" loading="lazy">
+                                        <img src="img/Hamburguesa.png" alt="Hamburguesa Galáctica Gratinada" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Hamburguesa Galáctica Gratinada</span>
@@ -394,7 +377,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/PerroCaliente.png" alt="Perros Calientes 2 Grandes" loading="lazy">
+                                        <img src="img/PerroCaliente.png" alt="Perros Calientes 2 Grandes" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Perros Calientes 2 Grandes</span>
@@ -406,7 +389,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/PerroCaliente.png" alt="Perro con Papas Naturales" loading="lazy">
+                                        <img src="img/PerroCaliente.png" alt="Perro con Papas Naturales" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Perro con Papas Naturales</span>
@@ -418,7 +401,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/PerroCaliente.png" alt="Perro Trimagnético" loading="lazy">
+                                        <img src="img/PerroCaliente.png" alt="Perro Trimagnético" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Perro Trimagnético</span>
@@ -430,7 +413,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/PerroCaliente.png" alt="Pepiperro" loading="lazy">
+                                        <img src="img/PerroCaliente.png" alt="Pepiperro" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Pepiperro</span>
@@ -447,7 +430,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/ClubHouse.png" alt="Pepito Sencillo" loading="lazy">
+                                        <img src="img/Pepito.jpg" alt="Pepito Sencillo" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Pepito Sencillo</span>
@@ -459,7 +442,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/ClubHouse.png" alt="Pepito Gratinado Pequeño" loading="lazy">
+                                        <img src="img/Pepito.jpg" alt="Pepito Gratinado Pequeño" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Pepito Gratinado Pequeño</span>
@@ -471,7 +454,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/ClubHouse.png" alt="Pepito Trifásico" loading="lazy">
+                                        <img src="img/Pepito.jpg" alt="Pepito Trifásico" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Pepito Trifásico</span>
@@ -483,7 +466,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/ClubHouse.png" alt="Pepito Trimagnético Gratinado Grande" loading="lazy">
+                                        <img src="img/Pepito.jpg" alt="Pepito Trimagnético Gratinado Grande" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Pepito Trimagnético Gratinado Grande</span>
@@ -495,12 +478,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="salchipapas-sencillas" class="tab-pane fade p-0">
+                        <div id="salchipapas" class="tab-pane fade p-0">
                             <h3 class="menu-category-title text-start mb-4">SALCHIPAPAS SENCILLAS</h3>
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/salchipapa.png" alt="Salchipapa Sencilla 1 Persona (Opción 1)" loading="lazy">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Sencilla 1 Persona (Opción 1)" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Salchipapa Sencilla 1 Persona (Opción 1)</span>
@@ -512,7 +495,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/salchipapa.png" alt="Salchipapa Sencilla 1 Persona (Opción 2)" loading="lazy">
+                                        <img src="img/salchipapa.png" alt="Salchipapa Sencilla 1 Persona (Opción 2)" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Salchipapa Sencilla 1 Persona (Opción 2)</span>
@@ -523,13 +506,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="salchipapas-gratinadas" class="tab-pane fade p-0">
-                            <h3 class="menu-category-title text-start mb-4">SALCHIPAPAS GRATINADAS</h3>
+                            <h3 class="menu-category-title text-start mb-4 mt-5">SALCHIPAPAS GRATINADAS</h3>
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/salchipapa.png" alt="Salchipapa Gratinada 2 Personas" loading="lazy">
+                                        <img src="img/Salchipapagratinada.jpg" alt="Salchipapa Gratinada 2 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Salchipapa Gratinada 2 Personas</span>
@@ -541,7 +522,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/salchipapa.png" alt="Salchipapa Gratinada 4 Personas" loading="lazy">
+                                        <img src="img/Salchipapagratinada.jpg" alt="Salchipapa Gratinada 4 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Salchipapa Gratinada 4 Personas</span>
@@ -553,7 +534,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/salchipapa.png" alt="Salchipapa Gratinada 7 Personas" loading="lazy">
+                                        <img src="img/Salchipapagratinada.jpg" alt="Salchipapa Gratinada 7 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Salchipapa Gratinada 7 Personas</span>
@@ -570,7 +551,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 2 Personas" loading="lazy">
+                                        <img src="img/tiras de pollo.jpg" alt="Tiras de Pollo 2 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Tiras de Pollo 2 Personas</span>
@@ -582,7 +563,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 3 Personas" loading="lazy">
+                                        <img src="img/tiras de pollo.jpg" alt="Tiras de Pollo 3 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Tiras de Pollo 3 Personas</span>
@@ -594,7 +575,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 4 Personas" loading="lazy">
+                                        <img src="img/tiras de pollo.jpg" alt="Tiras de Pollo 4 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Tiras de Pollo 4 Personas</span>
@@ -606,7 +587,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Tiras de Pollo 6 Personas" loading="lazy">
+                                        <img src="img/tiras de pollo.jpg" alt="Tiras de Pollo 6 Personas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Tiras de Pollo 6 Personas</span>
@@ -623,7 +604,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/ClubHouse.png" alt="Club House Normal" loading="lazy">
+                                        <img src="img/ClubHouse.png" alt="Club House Normal" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Club House Normal</span>
@@ -635,7 +616,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/ClubHouse.png" alt="Club House Especial + Refresco 1L" loading="lazy">
+                                        <img src="img/ClubHouse.png" alt="Club House Especial + Refresco 1L" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Club House Especial + Refresco 1L</span>
@@ -652,7 +633,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Combo 3 Burgers" loading="lazy">
+                                        <img src="img/Combo3hamburguesas.jpg" alt="Combo 3 Burgers" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Combo 3 Burgers</span>
@@ -664,7 +645,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Combo 6 Burgers de Pollo + Papas Naturales y Refresco de Litro" loading="lazy">
+                                        <img src="img/Combo6hamburguesas.jpg" alt="Combo 6 Burgers de Pollo + Papas Naturales y Refresco de Litro" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Combo 6 Burgers de Pollo + Papas Naturales y Refresco de Litro</span>
@@ -676,7 +657,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Combo 3 Pepitos Mixto + Papas Naturales y Refresco de Litro" loading="lazy">
+                                        <img src="img/Combo3pepitosMixtos.jpg" alt="Combo 3 Pepitos Mixto + Papas Naturales y Refresco de Litro" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Combo 3 Pepitos Mixto + Papas Naturales y Refresco de Litro</span>
@@ -688,7 +669,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Combo 3 Pepitos Gratinados + Papas Naturales y Refresco de Litro" loading="lazy">
+                                        <img src="img/Pepito.jpg" alt="Combo 3 Pepitos Gratinados + Papas Naturales y Refresco de Litro" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Combo 3 Pepitos Gratinados + Papas Naturales y Refresco de Litro</span>
@@ -700,7 +681,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/Hamburguesa.png" alt="Combo 3 Perros + 3 Burgers y Refresco de Litro" loading="lazy">
+                                        <img src="img/PerroCaliente.png" alt="Combo 3 Perros + 3 Burgers y Refresco de Litro" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Combo 3 Perros + 3 Burgers y Refresco de Litro</span>
@@ -717,7 +698,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/naguara-e-sabroso-logo.png" alt="Refresco 1L" loading="lazy">
+                                        <img src="img/refrescos.jpg" alt="Refresco 1L" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Refresco 1L</span>
@@ -729,7 +710,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/naguara-e-sabroso-logo.png" alt="Refresco 1.5L" loading="lazy">
+                                        <img src="img/refrescos.jpg" alt="Refresco 1.5L" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Refresco 1.5L</span>
@@ -741,7 +722,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="menu-item">
-                                        <img src="img/naguara-e-sabroso-logo.png" alt="Ración de Papas" loading="lazy">
+                                        <img src="img/racion de papas.jpg" alt="Ración de Papas" class="menu-image" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#menuImageModal" loading="lazy">
                                         <div class="w-100 text-start">
                                             <h5 class="d-flex justify-content-between align-items-start border-bottom pb-2 mb-2">
                                                 <span class="menu-name">Ración de Papas</span>
@@ -784,21 +765,10 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horarios</h4>
-                        <h5 class="text-light fw-normal">Todos los días</h5>
+                        <h5 class="text-light fw-normal">lunes a domingo</h5>
                         <p>07PM - 12AM</p>
                     </div>
 
-                </div>
-            </div>
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; Naguara de Sabroso, Todos los derechos reservados.
-                            Diseñado por <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
-                            Distribuido por <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -809,6 +779,29 @@
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
+    <!-- Menu Image Modal -->
+    <div class="modal fade" id="menuImageModal" tabindex="-1" aria-labelledby="menuImageModalName" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 justify-content-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img id="menuImageModalImg" class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="text-primary mb-3" id="menuImageModalName"></h4>
+                            <p class="fw-bold mb-1">Descripción:</p>
+                            <p class="mb-3 fs-5" id="menuImageModalDesc"></p>
+                            <h5 class="text-primary mb-0"><span class="fw-normal">Precio:</span> <span id="menuImageModalPrice" class="fw-bold"></span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -16,16 +16,6 @@
     new WOW().init();
 
 
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 45) {
-            $('.navbar').addClass('sticky-top shadow-sm');
-        } else {
-            $('.navbar').removeClass('sticky-top shadow-sm');
-        }
-    });
-    
-    
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
@@ -117,3 +107,42 @@
     
 })(jQuery);
 
+
+// Menu image modal
+document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.getElementById('menuImageModal');
+    if (!modal) return;
+
+    modal.addEventListener('show.bs.modal', function (event) {
+        const trigger = event.relatedTarget;
+        if (!trigger) return;
+
+        const item = trigger.closest('.menu-item');
+        if (!item) return;
+
+        function text(selector) {
+            const element = item.querySelector(selector);
+            return element ? element.textContent.trim() : '';
+        }
+
+        const name = text('.menu-name');
+        const price = text('.menu-price');
+        const description = text('.menu-desc');
+        const image = modal.querySelector('#menuImageModalImg');
+
+        modal.querySelector('#menuImageModalName').textContent = name;
+        modal.querySelector('#menuImageModalPrice').textContent = price;
+        modal.querySelector('#menuImageModalDesc').textContent = description;
+        image.src = trigger.getAttribute('src');
+        image.alt = name;
+    });
+
+    document.querySelectorAll('.menu-image').forEach(function (img) {
+        img.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                img.click();
+            }
+        });
+    });
+});
